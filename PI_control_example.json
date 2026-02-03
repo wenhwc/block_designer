@@ -1,0 +1,578 @@
+{
+  "area": {
+    "min": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "max": {
+      "x": 420.0,
+      "y": 297.0
+    }
+  },
+  "margin_left_mm": 20.0,
+  "margin_right_mm": 10.0,
+  "margin_top_mm": 10.0,
+  "margin_bottom_mm": 10.0,
+  "show_iso_5457": true,
+  "show_iso_7200": true,
+  "editable": true,
+  "zoomable": true,
+  "blocks": [
+    {
+      "id": "6458",
+      "pos_mm": {
+        "x": 55.0,
+        "y": 112.5
+      },
+      "block_type_id": "StepSource",
+      "parameter_values": {
+        "final_value": {
+          "type": "Float",
+          "value": 1.0
+        },
+        "initial_value": {
+          "type": "Float",
+          "value": 0.0
+        },
+        "step_time": {
+          "type": "Float",
+          "value": 1.0
+        }
+      },
+      "transform": {
+        "rotation": "Zero",
+        "flip_horizontally": false,
+        "flip_vertically": false
+      }
+    },
+    {
+      "id": "3295",
+      "pos_mm": {
+        "x": 112.5,
+        "y": 112.5
+      },
+      "block_type_id": "Gain",
+      "parameter_values": {
+        "gain": {
+          "type": "Float",
+          "value": 0.3
+        }
+      },
+      "transform": {
+        "rotation": "Zero",
+        "flip_horizontally": false,
+        "flip_vertically": false
+      }
+    },
+    {
+      "id": "C4AC",
+      "pos_mm": {
+        "x": 112.5,
+        "y": 130.0
+      },
+      "block_type_id": "Gain",
+      "parameter_values": {
+        "gain": {
+          "type": "Float",
+          "value": 0.1
+        }
+      },
+      "transform": {
+        "rotation": "Zero",
+        "flip_horizontally": false,
+        "flip_vertically": false
+      }
+    },
+    {
+      "id": "F2B8",
+      "pos_mm": {
+        "x": 142.5,
+        "y": 112.5
+      },
+      "block_type_id": "Integrator",
+      "parameter_values": {
+        "enabled": {
+          "type": "Boolean",
+          "value": true
+        },
+        "initial_value": {
+          "type": "Float",
+          "value": 0.0
+        }
+      },
+      "transform": {
+        "rotation": "Zero",
+        "flip_horizontally": false,
+        "flip_vertically": false
+      }
+    },
+    {
+      "id": "E992",
+      "pos_mm": {
+        "x": 182.5,
+        "y": 112.5
+      },
+      "block_type_id": "Adder",
+      "parameter_values": {},
+      "transform": {
+        "rotation": "Zero",
+        "flip_horizontally": false,
+        "flip_vertically": false
+      }
+    },
+    {
+      "id": "EE57",
+      "pos_mm": {
+        "x": 152.5,
+        "y": 142.5
+      },
+      "block_type_id": "UnitDelay",
+      "parameter_values": {
+        "enabled": {
+          "type": "Boolean",
+          "value": true
+        },
+        "initial_value": {
+          "type": "Float",
+          "value": 0.0
+        }
+      },
+      "transform": {
+        "rotation": "Zero",
+        "flip_horizontally": true,
+        "flip_vertically": false
+      }
+    },
+    {
+      "id": "0658",
+      "pos_mm": {
+        "x": 277.5,
+        "y": 162.5
+      },
+      "block_type_id": "Scope",
+      "parameter_values": {
+        "label": {
+          "type": "String",
+          "value": "Output"
+        },
+        "plot_group": {
+          "type": "String",
+          "value": "Plot 1"
+        }
+      },
+      "transform": {
+        "rotation": "Zero",
+        "flip_horizontally": false,
+        "flip_vertically": false
+      }
+    },
+    {
+      "id": "3FE4",
+      "pos_mm": {
+        "x": 80.0,
+        "y": 112.5
+      },
+      "block_type_id": "Subtractor",
+      "parameter_values": {},
+      "transform": {
+        "rotation": "Zero",
+        "flip_horizontally": false,
+        "flip_vertically": false
+      }
+    },
+    {
+      "id": "F193",
+      "pos_mm": {
+        "x": 105.0,
+        "y": 157.5
+      },
+      "block_type_id": "Scope",
+      "parameter_values": {
+        "label": {
+          "type": "String",
+          "value": "error"
+        },
+        "plot_group": {
+          "type": "String",
+          "value": "Plot 1"
+        }
+      },
+      "transform": {
+        "rotation": "Zero",
+        "flip_horizontally": false,
+        "flip_vertically": false
+      }
+    },
+    {
+      "id": "B366",
+      "pos_mm": {
+        "x": 217.5,
+        "y": 112.5
+      },
+      "block_type_id": "SecondOrderTransferFunction",
+      "parameter_values": {
+        "a0": {
+          "type": "Float",
+          "value": 1.0
+        },
+        "a1": {
+          "type": "Float",
+          "value": 1.414
+        },
+        "a2": {
+          "type": "Float",
+          "value": 1.0
+        },
+        "b0": {
+          "type": "Float",
+          "value": 1.0
+        },
+        "b1": {
+          "type": "Float",
+          "value": 0.0
+        },
+        "b2": {
+          "type": "Float",
+          "value": 0.0
+        },
+        "initial_x1": {
+          "type": "Float",
+          "value": 0.0
+        },
+        "initial_x2": {
+          "type": "Float",
+          "value": 0.0
+        }
+      },
+      "transform": {
+        "rotation": "Zero",
+        "flip_horizontally": false,
+        "flip_vertically": false
+      }
+    },
+    {
+      "id": "8EE1",
+      "pos_mm": {
+        "x": 30.0,
+        "y": 15.0
+      },
+      "block_type_id": "ProjectSettings",
+      "parameter_values": {
+        "architecture": {
+          "type": "String",
+          "value": "thumbv7em-none-eabihf"
+        },
+        "chip_model": {
+          "type": "String",
+          "value": "STM32F411CEU6"
+        },
+        "csv_filename": {
+          "type": "String",
+          "value": ""
+        },
+        "duration": {
+          "type": "Float",
+          "value": 20.0
+        },
+        "flash_length": {
+          "type": "String",
+          "value": "512K"
+        },
+        "flash_origin": {
+          "type": "String",
+          "value": "0x08000000"
+        },
+        "hal_crate": {
+          "type": "String",
+          "value": "stm32f4xx-hal"
+        },
+        "hal_features": {
+          "type": "String",
+          "value": "[\"stm32f411\"]"
+        },
+        "hse_oscillator_clock": {
+          "type": "Float",
+          "value": 25.0
+        },
+        "math_library": {
+          "type": "String",
+          "value": "Libm"
+        },
+        "max_frequency": {
+          "type": "Float",
+          "value": 100.0
+        },
+        "ram_length": {
+          "type": "String",
+          "value": "128K"
+        },
+        "ram_origin": {
+          "type": "String",
+          "value": "0x20000000"
+        },
+        "reporting_format": {
+          "type": "String",
+          "value": "Auto"
+        },
+        "require_pll48clk": {
+          "type": "Boolean",
+          "value": true
+        },
+        "rtic_dispatcher": {
+          "type": "String",
+          "value": "EXTI0"
+        },
+        "rtic_timer": {
+          "type": "String",
+          "value": "TIM2"
+        },
+        "solver": {
+          "type": "String",
+          "value": "RK4"
+        },
+        "system_clock": {
+          "type": "Float",
+          "value": 96.0
+        },
+        "timestep": {
+          "type": "Float",
+          "value": 0.01
+        }
+      },
+      "transform": {
+        "rotation": "Zero",
+        "flip_horizontally": false,
+        "flip_vertically": false
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "88D6",
+      "points": [
+        {
+          "x": 87.5,
+          "y": 112.5
+        },
+        {
+          "x": 97.5,
+          "y": 112.5
+        }
+      ],
+      "stroke_width": 0.5,
+      "stroke_color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "signal": {
+        "signal_type": "Float"
+      }
+    },
+    {
+      "id": "39AE",
+      "points": [
+        {
+          "x": 92.5,
+          "y": 112.5
+        },
+        {
+          "x": 92.5,
+          "y": 130.0
+        },
+        {
+          "x": 97.5,
+          "y": 130.0
+        }
+      ],
+      "stroke_width": 0.5,
+      "stroke_color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "signal": {
+        "signal_type": "Float"
+      }
+    },
+    {
+      "id": "2633",
+      "points": [
+        {
+          "x": 157.5,
+          "y": 112.5
+        },
+        {
+          "x": 172.5,
+          "y": 112.5
+        }
+      ],
+      "stroke_width": 0.5,
+      "stroke_color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "signal": {
+        "signal_type": "Float"
+      }
+    },
+    {
+      "id": "362A",
+      "points": [
+        {
+          "x": 125.0,
+          "y": 130.0
+        },
+        {
+          "x": 182.5,
+          "y": 130.0
+        },
+        {
+          "x": 182.5,
+          "y": 122.5
+        }
+      ],
+      "stroke_width": 0.5,
+      "stroke_color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "signal": {
+        "signal_type": "Float"
+      }
+    },
+    {
+      "id": "9A66",
+      "points": [
+        {
+          "x": 92.5,
+          "y": 130.0
+        },
+        {
+          "x": 92.5,
+          "y": 137.5
+        },
+        {
+          "x": 85.0,
+          "y": 137.5
+        },
+        {
+          "x": 85.0,
+          "y": 157.5
+        }
+      ],
+      "stroke_width": 0.5,
+      "stroke_color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "signal": {
+        "signal_type": "Float"
+      }
+    },
+    {
+      "id": "83AE",
+      "points": [
+        {
+          "x": 137.5,
+          "y": 142.5
+        },
+        {
+          "x": 80.0,
+          "y": 142.5
+        },
+        {
+          "x": 80.0,
+          "y": 122.5
+        }
+      ],
+      "stroke_width": 0.5,
+      "stroke_color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "signal": {
+        "signal_type": "Float"
+      }
+    },
+    {
+      "id": "B35B",
+      "points": [
+        {
+          "x": 242.5,
+          "y": 112.5
+        },
+        {
+          "x": 242.5,
+          "y": 162.5
+        },
+        {
+          "x": 257.5,
+          "y": 162.5
+        }
+      ],
+      "stroke_width": 0.5,
+      "stroke_color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "signal": {
+        "signal_type": "Float"
+      }
+    },
+    {
+      "id": "D161",
+      "points": [
+        {
+          "x": 242.5,
+          "y": 142.5
+        },
+        {
+          "x": 170.0,
+          "y": 142.5
+        }
+      ],
+      "stroke_width": 0.5,
+      "stroke_color": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "signal": {
+        "signal_type": "Float"
+      }
+    }
+  ],
+  "data_labels": [],
+  "iso_data": {
+    "legal_owner": "",
+    "identification_number": "1001",
+    "date_of_issue": "2026-01-28",
+    "revision_index": "00",
+    "sheet_number": "1",
+    "number_of_sheets": "1",
+    "title": "Untitled Project",
+    "supplementary_title": "",
+    "responsible_department": "",
+    "creator": "Designer",
+    "approval_person": "",
+    "document_type": "Control Block Diagram",
+    "document_status": "Draft",
+    "scale": "1:1",
+    "paper_size": "A3"
+  },
+  "next_id_counter": 50
+}
