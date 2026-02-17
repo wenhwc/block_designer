@@ -17,7 +17,7 @@
 - **Rich Library**: Comprehensive set of Math, Logic, Signal Sources, and Hardware-specific blocks.
 - **PDF Export**: Generate detailed PDF reports and documentation of your designs.
 
-## � Download & Installation
+## 📥 Download & Installation
 
 ### macOS
 1. Go to the [Releases](https://github.com/wenhwc/block_designer/releases) page.
@@ -44,7 +44,6 @@
 **Block Designer** is provided under a Private License.
 The software is free for evaluation and personal use.
 
-For feedback, bug reports, or commercial licensing inquiries, please open an issue in this repository or contact [wen.hwc@gmail.com](mailto:wen.hwc@gmail.com).
-
+For feedback, bug reports, or commercial licensing inquiries, please [report issues](https://github.com/wenhwc/block_designer/issues) or contact [wen.hwc@gmail.com](mailto:wen.hwc@gmail.com).
 ---
 © 2026 Project Day Off. All rights reserved.
