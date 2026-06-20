@@ -1,8 +1,8 @@
 # Block Designer
 
-**Block Designer** is a self-hosted visual environment for embedded control — the open-workbench take on MATLAB/Simulink. Design your control loop visually, simulate it with real solver fidelity, then flash it straight to an STM32. Built for engineers and hobbyists alike.
+**Block Designer** is a self-hosted visual environment for embedded control — a lightweight, self-contained take on model-based design. Design your control loop visually, simulate it with real solver fidelity, then flash it straight to an STM32. Built for engineers and hobbyists alike.
 
-> **Note:** This repository hosts the binary releases and documentation for Block Designer. The source code is closed-source.
+> **Note:** This repository hosts the binary releases and documentation for Block Designer.
 
 🌐 **Website & tutorial:** [projectdayoff.com](https://projectdayoff.com) — a 7-lesson walkthrough of the basics.
 
@@ -26,7 +26,7 @@
 - Integrated oscilloscope-style **Signal Monitor**: pan, zoom, cursors, and multi-signal overlay.
 - **Automatic eigenvalue (pole) analysis** — the system is linearized after every run and its poles plotted on the complex plane; a time slider re-linearizes at any instant.
 - **Root locus** from a **Gain Probe** block — sweep a gain across a range and watch the poles trace their path. Multiple probes can coexist on one canvas.
-- CSV export for Excel / MATLAB / Python.
+- CSV export for spreadsheets, Python, and other analysis tools.
 
 ### 🔌 Embedded Targeting
 - STM32 targeting across the **F4 / L4 / H7** families.
@@ -68,7 +68,7 @@ New to Block Designer? The [tutorial](https://projectdayoff.com/tutorial/) walks
 
 ## 📄 License & Support
 
-**Block Designer** is provided under a Private License. The software is free for evaluation and personal use.
+**Block Designer** is free for evaluation and personal use.
 
 - **Bug reports:** [open an issue](https://github.com/wenhwc/block_designer/issues).
 - **Feedback, questions, or commercial licensing inquiries:** start a [discussion](https://github.com/wenhwc/block_designer/discussions).
