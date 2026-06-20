@@ -2,7 +2,7 @@
 
 **Block Designer** is a self-hosted visual environment for embedded control — a lightweight, self-contained take on model-based design. Design your control loop visually, simulate it with real solver fidelity, then flash it straight to an STM32. Built for engineers and hobbyists alike.
 
-> **Note:** This repository hosts the binary releases and documentation for Block Designer.
+> **Note:** This repository is for **bug reports and discussion**. Downloads and documentation live on the [website](https://projectdayoff.com).
 
 🌐 **Website & tutorial:** [projectdayoff.com](https://projectdayoff.com) — a 7-lesson walkthrough of the basics.
 
@@ -11,7 +11,7 @@
 ## 🚀 Key Features
 
 ### 🎨 Visual Logic Design
-- Drag-and-drop canvas with an infinite, zoomable grid.
+- Click-to-place canvas with an infinite, zoomable grid.
 - Searchable palette of 100+ pre-built blocks across 14 categories (Source, Math, Logic, Dynamic, Control, Hardware, Sink, and more).
 - Automatic orthogonal wire routing (A* pathfinding) that re-routes as you move blocks.
 - Live parameter editing with inline validation.
@@ -45,23 +45,21 @@
 ## 📥 Download & Installation
 
 ### macOS
-1. Go to the [Releases](https://github.com/wenhwc/block_designer/releases) page.
-2. Download the latest **Apple Silicon (M-series)** `.dmg`. *(Intel Macs are not supported.)*
-3. Open the DMG file and drag **Block Designer** to your `Applications` folder.
-4. Launch the app.
+1. Download the latest **Apple Silicon (M-series)** [`.dmg`](https://downloads.projectdayoff.com/latest/block_designer_macos_arm64.dmg). *(Intel Macs are not supported.)*
+2. Open the DMG file and drag **Block Designer** to your `Applications` folder.
+3. Launch the app.
 
 ### Windows
-1. Go to the [Releases](https://github.com/wenhwc/block_designer/releases) page.
-2. Download the latest Windows x64 zip.
-3. Extract the zip file and run `block_designer.exe`.
+1. Download the latest [Windows x64 zip](https://downloads.projectdayoff.com/latest/block_designer_windows_x64.zip).
+2. Extract the zip file and run `block_designer.exe`.
 
 ## 📖 Getting Started
 
 New to Block Designer? The [tutorial](https://projectdayoff.com/tutorial/) walks through the basics in 7 short lessons. In brief:
 
 1. **New Project**: Start a new design from the `File` menu.
-2. **Library**: Drag blocks from the left-hand library into the workspace.
-3. **Connections**: Click and drag from an output port to an input port to connect them.
+2. **Library**: Click a block in the left-hand library — it follows your cursor; click again on the canvas to place it.
+3. **Connections**: Click an output port, then click an input port to connect them.
 4. **Properties**: Select a block to adjust its parameters in the right-hand panel.
 5. **Simulation**: Click the **Simulate** button to run your logic and watch signals in the **Signal Monitor** — and read the system's eigenvalues / root locus in the **Analysis Console**.
 6. **Hardware**: Connect your STM32 board and use **Program STM32** to flash your logic directly to the hardware.
