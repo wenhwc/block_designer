@@ -45,7 +45,7 @@
 ## 📥 Download & Installation
 
 ### macOS
-1. Download the latest **Apple Silicon (M-series)** [`.dmg`](https://downloads.projectdayoff.com/latest/block_designer_macos_arm64.dmg). *(Intel Macs are not supported.)*
+1. Download the latest **Apple Silicon (M-series)** [`.dmg`](https://downloads.projectdayoff.com/latest/block_designer_macos_arm64.dmg).
 2. Open the DMG file and drag **Block Designer** to your `Applications` folder.
 3. Launch the app.
 
