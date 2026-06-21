@@ -2,9 +2,9 @@
 
 **Block Designer** is a self-hosted visual environment for embedded control — a lightweight, self-contained take on model-based design. Design your control loop visually, simulate it with real solver fidelity, then flash it straight to an STM32. Built for engineers and hobbyists alike.
 
-> **Note:** This repository is for **bug reports and discussion**. Downloads and documentation live on the [website](https://projectdayoff.com).
+> **Note:** This repository is for **bug reports and discussion**. Downloads and documentation live on the [website](https://www.projectdayoff.com).
 
-🌐 **Website & tutorial:** [projectdayoff.com](https://projectdayoff.com) — a 7-lesson walkthrough of the basics.
+🌐 **Website & tutorial:** [projectdayoff.com](https://www.projectdayoff.com) — a 7-lesson walkthrough of the basics.
 
 ---
 
@@ -55,7 +55,7 @@
 
 ## 📖 Getting Started
 
-New to Block Designer? The [tutorial](https://projectdayoff.com/tutorial/) walks through the basics in 7 short lessons. In brief:
+New to Block Designer? The [tutorial](https://www.projectdayoff.com/tutorial/) walks through the basics in 7 short lessons. In brief:
 
 1. **New Project**: Start a new design from the `File` menu.
 2. **Library**: Click a block in the left-hand library — it follows your cursor; click again on the canvas to place it.
