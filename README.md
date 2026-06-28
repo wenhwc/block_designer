@@ -4,7 +4,7 @@
 
 > **Note:** This repository is for **bug reports and discussion**. Downloads and documentation live on the [website](https://www.projectdayoff.com).
 
-🌐 **Website & tutorial:** [projectdayoff.com](https://www.projectdayoff.com) — a 7-lesson walkthrough of the basics.
+🌐 **Website & tutorial:** [www.projectdayoff.com](https://www.projectdayoff.com) — a 7-lesson walkthrough of the basics.
 
 ---
 
@@ -45,12 +45,12 @@
 ## 📥 Download & Installation
 
 ### macOS
-1. Download the latest **Apple Silicon (M-series)** [`.dmg`](https://downloads.projectdayoff.com/latest/block_designer_macos_arm64.dmg).
+1. Download the latest **Apple Silicon (M-series)** [`.dmg`](https://downloads.projectdayoff.com/v0.2.1/Block%20Designer_0.2.1_aarch64.dmg).
 2. Open the DMG file and drag **Block Designer** to your `Applications` folder.
 3. Launch the app.
 
 ### Windows
-1. Download the latest [Windows x64 zip](https://downloads.projectdayoff.com/latest/block_designer_windows_x64.zip).
+1. Download the latest [Windows x64 zip](https://downloads.projectdayoff.com/v0.2.1/Block%20Designer_0.2.1_x64.zip).
 2. Extract the zip file and run `block_designer.exe`.
 
 ## 📖 Getting Started
