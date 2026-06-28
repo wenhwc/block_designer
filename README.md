@@ -30,7 +30,7 @@
 
 ### 🔌 Embedded Targeting
 - STM32 targeting across the **F4 / L4 / H7** families.
-- **Safe, pure-Rust firmware generation** — no C, no hand-written code. An optional **auditable** codegen style emits Rust that reads like hand-written code, so you can review exactly what runs on the chip.
+- **Safe, pure-Rust firmware generation** — no C, no hand-written code. An optional **auditable** codegen style emits clearly structured Rust, with names mapped back to your canvas, so you can review exactly what runs on the chip.
 - One-click flashing directly over **OpenOCD / ST-Link** — zero-config.
 - Real-time **hardware validation**: pin configurations and peripheral conflicts are checked as you design.
 - Rich hardware block library: PWM, ADC, GPIO, and more.
